@@ -8,8 +8,11 @@
         "Doctrine"
     ],
     "license": "MIT",
+    "repositories": [
+        { "type": "vcs", "url": "git@github.com:tigitz/date-time.git"}
+    ],
     "require": {
-        "brick/date-time": "~0.6.0 || ~0.7.0",
+        "brick/date-time": "dev-main",
         "doctrine/dbal": "^2.7.0 || ^3.0",
         "doctrine/orm": "^2.7.0 || ^3.0",
         "php": "^8.1"
